@@ -134,6 +134,7 @@ public class Adaptador extends BaseAdapter {
                 p = lista.get(pos);
                 setId(p.getId());
                 v1.setText(""+p.getId());
+                v1.setEnabled(false);
                 v2.setText(p.getNombre());
                 v3.setText(p.getCantidad());
                 v4.setText(p.getPrecio());
